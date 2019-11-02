@@ -1,4 +1,4 @@
-# AlarmApp - 
+# AlarmApp - Android
 
 App Info
 -------------------------------------------
