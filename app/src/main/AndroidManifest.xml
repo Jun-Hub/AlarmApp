@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name = "android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Heeya"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".SubActivity">
+
+        </activity>
+
+        <activity android:name=".SetActivity">
+
+    </activity>
+
+        <activity android:name=".AlterActivity">
+
+        </activity>
+
+        <activity android:name=".InforActivity"
+
+            >
+
+        </activity>
+
+        <activity android:name=".ItemView"
+            >
+
+        </activity>
+
+        <activity android:name=".DialogActivity"
+            android:theme="@android:style/Theme.Holo.Light.Dialog">
+
+        </activity>
+
+        <activity android:name=".DialogActivity2"
+            android:theme="@android:style/Theme.Holo.Light.Dialog">
+
+        </activity>
+        <activity android:name=".DialogActivity3"
+            android:theme="@android:style/Theme.Holo.Light.Dialog">
+
+        </activity>
+
+        <activity android:name=".DialogActivity4"
+            android:theme="@android:style/Theme.Holo.Light.Dialog">
+
+        </activity>
+
+        <activity android:name=".AlarmDialogActivity"
+            android:theme="@android:style/Theme.Holo.Light.Dialog">
+
+        </activity>
+
+
+        <receiver android:name=".TestReceiver">
+            <intent-filter>
+                <action android:name="com.dwfox.myapplication.SEND_BROAD_CAST"/>
+            </intent-filter>
+        </receiver>
+
+
+    </application>
+
+</manifest>

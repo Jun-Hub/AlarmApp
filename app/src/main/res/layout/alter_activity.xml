@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:weightSum="1"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="시간"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:text="오전 9시 22분"
+        android:textSize="20sp"
+        android:id="@+id/timeBtn"
+        android:textColor="#c73c1d"
+        android:background="#ffffff"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="반복"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView2" />
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:text="반복 안함"
+        android:textSize="20sp"
+        android:id="@+id/dayBtn"
+        android:textColor="#c73c1d"
+        android:background="#ffffff"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="벨소리"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView3" />
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:text="기본 알림음"
+        android:textSize="20sp"
+        android:id="@+id/ringBtn"
+        android:textColor="#c73c1d"
+        android:background="#ffffff"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="알람해제 방법"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView4" />
+
+    <EditText
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="알람을 종료할 방법을 설정"
+        android:textSize="20sp"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:textColor="#c73c1d"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="라벨"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:ems="20"
+        android:id="@+id/editText5"
+        android:textColor="#858585"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="취소"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#faf7f9"
+            android:background="#3e61ff"
+            android:layout_gravity="bottom"
+            android:id="@+id/button2" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="삭제"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#faf7f9"
+            android:background="#3e61ff"
+            android:layout_gravity="bottom"
+            android:id="@+id/button3" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="확인"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#faf7f9"
+            android:background="#3e61ff"
+            android:layout_gravity="bottom"
+            android:id="@+id/button4" />
+
+        </LinearLayout>
+</LinearLayout>

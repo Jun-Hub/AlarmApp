@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_gravity="top">
+
+    <Button
+        android:layout_width="305dp"
+        android:layout_height="57dp"
+        android:text="알람 추가"
+        android:textColor="#faf7f9"
+        android:textSize="25sp"
+        android:background="#000399"
+        android:textStyle="bold"
+
+        android:id="@+id/button" />
+
+
+    <ImageButton
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_gravity="end"
+        android:src="@drawable/clock"
+        android:onClick="start"
+        android:id="@+id/imageButton" />
+
+    </LinearLayout>
+
+   <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listView"
+            android:layout_gravity="center_vertical"
+            android:divider="#8ec5ff"
+            android:transcriptMode="alwaysScroll"
+            android:dividerHeight="1dp"
+            android:layout_weight="1"
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageButton
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:id="@+id/imageButton2"
+        android:src="@drawable/set"
+        android:layout_gravity="right"
+        android:longClickable="false" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

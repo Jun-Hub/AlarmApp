@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:text="만든이 : 이준용"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:background="#5f9cd8"
+        android:id="@+id/button8"
+        android:layout_gravity="center"
+         />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="추천하기"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="#435144"
+        android:id="@+id/button"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="앱 평가"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="#435144"
+        android:id="@+id/button2"
+        android:layout_gravity="center|bottom"
+        />
+
+    </LinearLayout>
+
+
+</FrameLayout>

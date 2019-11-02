@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#e36e40">
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/imageButton"
+                android:src="@drawable/information"/>
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:text="                     설정"
+                android:id="@+id/textView0"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="end|bottom"
+                android:id="@+id/imageButton2"
+                android:src="@drawable/mail"/>
+
+        </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="알람 볼륨"
+                android:id="@+id/textView" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:text="알람 볼륨 설정"
+                android:textSize="17sp"
+                android:ems="10"
+                android:id="@+id/editText"
+                android:textColor="#c73c1d"
+                android:layout_gravity="center_horizontal" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="                                     볼륨 점점 크게"
+                android:textSize="20sp"
+                android:id="@+id/checkBox" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="자동 무음 모드"
+                android:id="@+id/textView2" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:text="사용 안함"
+                android:textSize="17sp"
+                android:ems="10"
+                android:id="@+id/editText2"
+                android:textColor="#c73c1d"
+                android:layout_gravity="center_horizontal" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="          이어폰 연결시에도 스피커에서 소리 재생"
+                android:textSize="18sp"
+                android:id="@+id/checkBox2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="음소거 시간"
+                android:id="@+id/textView3" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:text="60 초"
+                android:textSize="17sp"
+                android:ems="10"
+                android:id="@+id/editText3"
+                android:textColor="#c73c1d"
+                android:layout_gravity="center_horizontal" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="                           상단바에 다음알림 표시"
+                android:textSize="20sp"
+                android:id="@+id/checkBox3" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="                                      폰 전원끄기 방지"
+                android:textSize="20sp"
+                android:id="@+id/checkBox4" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="                                            앱 삭제방지"
+                android:textSize="20sp"
+                android:id="@+id/checkBox5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="테마"
+                android:id="@+id/textView4" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:text="빨강"
+                android:textSize="17sp"
+                android:ems="10"
+                android:id="@+id/editText4"
+                android:textColor="#c73c1d"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="온도표시"
+                android:id="@+id/textView5" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:text="°C"
+                android:textSize="17sp"
+                android:ems="10"
+                android:id="@+id/editText5"
+                android:textColor="#c73c1d"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="온도표시"
+                android:id="@+id/textView6" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:text="°C"
+                android:textSize="17sp"
+                android:ems="10"
+                android:id="@+id/editText6"
+                android:textColor="#c73c1d"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="알람해제 방법"
+                android:id="@+id/textView7" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:text="계산기"
+                android:textSize="17sp"
+                android:ems="10"
+                android:id="@+id/editText7"
+                android:textColor="#c73c1d"
+                android:layout_gravity="center_horizontal" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
